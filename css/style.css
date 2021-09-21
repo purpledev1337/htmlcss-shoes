@@ -21,6 +21,14 @@ nav ul {
     margin: 50px 50px;
 }
 
+nav a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+}
+
 nav li {
     display: inline-block;
     background-color: white;
