@@ -6,6 +6,7 @@
 
 body {
     text-align: center;
+    font-family: ‘Rubik Mono One’, sans-serif;
 }
 
 /* nav */
@@ -53,7 +54,7 @@ section {
 
 /* PRODUCT NAME */
 .product h1 {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     font-size: 80px;
     font-variant-caps: all-small-caps;
