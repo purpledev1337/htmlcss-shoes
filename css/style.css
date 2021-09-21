@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    text-align: center;
+}
+
+section {
+    height: 100vh;
+    /* debug */
+    background-color: blue;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+    vertical-align: middle;
+    margin: 40px 20px;
+}
