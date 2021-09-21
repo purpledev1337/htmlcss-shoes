@@ -17,6 +17,10 @@ nav {
     z-index: 99;
 }
 
+nav ul {
+    margin: 50px 50px;
+}
+
 nav li {
     display: inline-block;
     background-color: white;
@@ -25,7 +29,9 @@ nav li {
     width: 3em;
     line-height: 3em;
     vertical-align: middle;
-    margin: 40px 20px;
+    margin: 0 30px;
+    font-size: 25px;
+    font-weight: 900;
 }
 
 /* - - - PAGE - - - */
@@ -36,6 +42,14 @@ section {
 
 #page1 {
     background-color: red;
+}
+
+#page2 {
+    background-color: green;
+}
+
+#page3 {
+    background-color: yellow;
 }
 
 /* PRODUCT BOX */
@@ -54,12 +68,16 @@ section {
 
 /* PRODUCT NAME */
 .product h1 {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    font-size: 80px;
+    font-size: 60px;
     font-variant-caps: all-small-caps;
 }
 
-#name1 {
+#name1, #name2 {
     color: yellow;
+}
+
+#name3 {
+    color: green;
 }
